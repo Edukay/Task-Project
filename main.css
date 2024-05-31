@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 10px;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.image{
+    width: 500px; height: 500px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.FormContainer{
+    width: 300px;
+    margin-left: 1000px;
+    margin-top: 0px; margin-bottom: 100px;
+    
+    
+    
+}
