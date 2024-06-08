@@ -33,10 +33,87 @@ nav a{
 }
 
 .FormContainer{
-    width: 300px;
-    margin-left: 1000px;
+    width: 32rem;
     margin-top: 0px; margin-bottom: 100px;
+    flex-direction: column;
+    background-color: white;
+    border-left: 30px;
+    margin-left: 43rem;
+    margin-top: -21rem;
     
     
     
+    
+}
+
+form{
+    padding-left: 2rem;
+    width: 30rem;
+    height: 23rem;
+
+
+
+}
+
+.FormContainer h1{
+    padding-left: 1rem;
+    font-size: 26px;
+    color: #000;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.FormContainer b{
+    padding-left: 2rem;
+}
+
+input{
+    width: 21rem;
+    height: 2rem;
+    margin-top: 1rem;
+    /* border: solid 1px blue; */
+}
+
+::placeholder{
+    padding-left: 2rem;
+}
+
+.vail input{
+    margin-left: -9.5rem;
+    height: 1rem;
+    /* margin-top: 1.5rem; */
+    position: absolute;
+}
+.vail label{
+   margin-left: 3rem;
+   font-size: 22px;
+}
+
+.btn  a{
+padding-left: 18rem; 
+margin-top: -1.4rem;
+position: absolute;
+font-size: 19px;
+}
+
+button{
+    width: 21rem;
+    height: 3rem;
+    background-color: rgb(61, 61, 228);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.view input {
+    left: -9.5rem;
+    position: relative;
+    height: 1rem;
+}
+
+
+.privacy {
+    padding-left: -2rem;
+    position: relative;
 }
