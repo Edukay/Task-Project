@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN FORM</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body background="Bg1.jpeg">
     
@@ -28,31 +33,58 @@
     
 <div class="FormContainer">
     <form class="form">
-        <h2>Email account login</h2><h2>Administrator login</h2>
+        <h2> <a href="#">Email account login </a> <b> <a href="#" >Administrator login </a></b></h2>
         
 
         <input type="email" id="email" name="email" placeholder="email address">
+        <i class="material-icons">person</i>
         <br><br>
+        <div class="password">
+            <input type="password" id="password" name="password" placeholder="password">
+            <i class="material-icons">lock</i>
 
-        <input type="password" id="password" name="password" placeholder="password">
+    </div>
 <br>
         
+       <div class="vail">
+<input type="checkbox" id="rememberMe" name="rememberMe"><br>
 
-<input type="checkbox" id="rememberMe" name="rememberMe">
         <label for="checkbox">remember Me</label>
+    </div>
 
+
+             <div class="btn">
         <a href="#">forget the password</a>
+    </div>
         <br>
 
-
-        <input type="submit" id="submit" name="login" value="login">
-        <br><br>
-
-        <input type="checkbox" id="check" name="check">
-        <label for="checkbox">I have read and agree to <a href="#"> the Terms of Services</a> and <a href="#">Privacy Policy</a> </label>
-
-    
-    </form>
+           <a href=""><button>log in</button></a>
+        <!-- <input type="submit" id="submit" name="login" value="login"> -->
+        <div class="view">
+        <input type="checkbox" id="check" name="check"> 
+        <div class="privacy">
+        <label for="checkbox">I have read and agree to <a href="#">the Terms of Services</a> and <a href="#">Privacy Policy</a> </label>
+    </div>
+    </div>
 </div>
+
+    <footer>
+
+        <div class="footer">
+
+            <ul>
+                <li> <a href="#">IPV6 network is supported</a> </li>
+                <li> <a href="#">About NetEase</a> </li>
+                <li> <a href="#">Official Weibo</a> </li>
+                <li> <a href="#">Related Laws</a> </li>
+                <li> <a href="#">Privacy Policy</a> </li>
+                <li>|</li>
+                <li> <a href="#">NetEase Inc All rights Reserved</a> </li>
+                <li> 1997-2024 </li>
+
+            </ul>
+
+        </div>
+    </footer>
 </body>
 </html>
